@@ -263,9 +263,9 @@
    <div id = "credit" style = "display: none"><p>by Emily-Rose Chantrill-Cheyette<br>@echantrillcheyette</p></div>
 
   <div id = "countdownContainer">
-    <span id = "countdownText1" style = "display: none">check back here in:</span> 
+    <span id = "countdownText1" style = "display: none">time until next display:</span> 
     <span id="countdown"></span> 
-    <span id = "countdownText2" style = "display: none">bring someone, if you can. a friend, a loved one.</span> 
+    <span id = "countdownText2" style = "display: none">see you then!</span> 
 </div> 
 
        <audio id = "waitingMusic" loop>
@@ -569,7 +569,7 @@
     }
   });
 
-  var countDownDate = new Date("Jan 1, 2026 00:00:00").getTime();
+  var countDownDate = new Date("Jan 1, 2027 00:00:00").getTime();
   var x = setInterval(function() {
   var now = new Date().getTime();
   var distance = countDownDate - now;
@@ -624,8 +624,8 @@
   }
 
 (function() {
-  var showDate = new Date("Jan 1, 2026 00:00:00").getTime();
-  var hideDate = new Date("Jan 1, 2026 01:00:00").getTime();
+  var showDate = new Date("Jan 1, 2027 00:00:00").getTime();
+  var hideDate = new Date("Jan 1, 2027 01:00:00").getTime();
   var now = new Date().getTime();
   var mainContent = document.getElementById("mainContent");
   var countdownContainer = document.getElementById("countdownContainer");
@@ -665,7 +665,7 @@
 })();
 }, 1000);
 
-var hideDate = new Date("Jan 1, 2026 01:00:00").getTime();
+var hideDate = new Date("Jan 1, 2027 01:00:00").getTime();
 var hideInterval = setInterval(function() {
   var now = new Date().getTime();
   var mainContent = document.getElementById("mainContent");
